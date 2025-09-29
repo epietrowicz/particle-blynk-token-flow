@@ -18,11 +18,11 @@ Select the template of your choice, and define the number of tokens to create.
   💡 We recommend only creating one token per device onboarded in your Particle product. 
 </aside>
 
-<img width="954" height="714" alt="CleanShot_2025-09-26_at_14 55 502x" src="https://github.com/user-attachments/assets/7d8a9942-f73c-4e60-ab8f-37237b7c13bf" />
+<img width="500" alt="CleanShot_2025-09-26_at_14 55 502x" src="https://github.com/user-attachments/assets/7d8a9942-f73c-4e60-ab8f-37237b7c13bf" />
 
 After selecting “Create Tokens”, you’ll be presented with the option to download a .zip file containing the newly created tokens.
 
-<img width="672" height="232" alt="CleanShot_2025-09-26_at_14 56 432x" src="https://github.com/user-attachments/assets/bb12e382-46a1-47f3-98a9-f5cb72e674a2" />
+<img width="400" alt="CleanShot_2025-09-26_at_14 56 432x" src="https://github.com/user-attachments/assets/bb12e382-46a1-47f3-98a9-f5cb72e674a2" />
 
 If you missed this pop-up, you can always export the tokens from the expansion button under the filter header.
 
@@ -42,7 +42,7 @@ Select “add new integration”.
 
 Choose “Custom webhook”.
 
-<img width="1486" height="882" alt="CleanShot_2025-09-26_at_15 11 412x" src="https://github.com/user-attachments/assets/e4b4a41c-35ac-445e-a821-903692ee008f" />
+<img width="500" alt="CleanShot_2025-09-26_at_15 11 412x" src="https://github.com/user-attachments/assets/e4b4a41c-35ac-445e-a821-903692ee008f" />
 
 Change the tab from “Webhook builder” to “Custom template” and paste in the following JSON.
 
@@ -80,11 +80,11 @@ While still in the Particle Console, let’s create the [Cloud to Device](https:
 
 In your product view, navigate to “Cloud services” and choose “Go to Ledger →”.
 
-<img width="2386" height="1120" alt="CleanShot_2025-09-29_at_12 31 452x" src="https://github.com/user-attachments/assets/43405e13-9df2-4e0c-85f0-042e03f3a961" />
+<img width="500" alt="CleanShot_2025-09-29_at_12 31 452x" src="https://github.com/user-attachments/assets/43405e13-9df2-4e0c-85f0-042e03f3a961" />
 
 Select “Create new Ledger” and choose “Cloud to Device Ledger”.
 
-<img width="1796" height="714" alt="CleanShot_2025-09-29_at_12 33 172x" src="https://github.com/user-attachments/assets/94976b00-1d1e-47db-b317-ddb5132671e2" />
+<img width="500" alt="CleanShot_2025-09-29_at_12 33 172x" src="https://github.com/user-attachments/assets/94976b00-1d1e-47db-b317-ddb5132671e2" />
 
 Give your Ledger a name, we’ll use “blynk-tokens-c2d” in this example. Select the “Device” scope in the drop down. Then save your changes. Make note of your Ledger name, we’ll need it in a later step.
 
@@ -157,12 +157,12 @@ The firmware remains mostly unchanged from the example code [provided by Blynk](
 
 From the Particle console, trigger the `blynk_led` function with a payload of “on”. This will tell the device to make a request back to the Blynk cloud via webhook integration. 
 
-<img width="612" height="360" alt="CleanShot_2025-09-29_at_15 57 322x" src="https://github.com/user-attachments/assets/deb248a1-611a-41f1-9ba0-7cf9ee5dfd0d" />
+<img width="500" alt="CleanShot_2025-09-29_at_15 57 322x" src="https://github.com/user-attachments/assets/deb248a1-611a-41f1-9ba0-7cf9ee5dfd0d" />
 
-<img width="820" height="814" alt="CleanShot_2025-09-29_at_15 35 202x" src="https://github.com/user-attachments/assets/4f031141-5eed-4f9c-8c1c-2953daf167b1" />
+<img width="500" alt="CleanShot_2025-09-29_at_15 35 202x" src="https://github.com/user-attachments/assets/4f031141-5eed-4f9c-8c1c-2953daf167b1" />
 
 ## Activate the device via Blynk app
 
 Finally, you’re ready to activate your device using the Blynk mobile app. In the Blynk app, scan the QR code associated with each device token and accept the prompts. This will enable your device to start streaming data into your Blynk account.
 
-<img width="1179" height="2556" alt="image" src="https://github.com/user-attachments/assets/555d1880-8094-4b8e-b871-40e7d031be3b" />
+<img height="500" alt="image" src="https://github.com/user-attachments/assets/555d1880-8094-4b8e-b871-40e7d031be3b" />
